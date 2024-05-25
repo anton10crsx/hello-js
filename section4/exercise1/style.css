@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: f5f5f5;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#square {
+  border: 4px solid black;
+  background: white;
+  width: 256px;
+  height: 256px;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 256px;
+  transition: 4s all ease;
+}
+
+#square::after {
+  content: "01";
+  animation: 4s cT forwards;
+}
+
+@keyframes cT {
+  to {
+    content: "02";
+  }
+}

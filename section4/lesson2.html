@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson 2</title>
+  </head>
+  <body>
+    <h1 id="tagH1">I'm a H1</h1>
+    <h2 id="tagH2">I'm a H2!</h2>
+    <p id="tagP">Lorem ipsum dolor sit amet.</p>
+    <p id="tagP2"></p>
+
+    <div id="test"></div>
+
+    <script>
+      console.log("=== === ===");
+
+      //   let tagH2 = document.getElementById("tagH2");
+      //   let textTagH2 = tagH2.innerHTML;
+      //   console.log(textTagH2);
+
+      //   let tagH1 = document.getElementById("tagH1");
+
+      //   tagH1.innerHTML = textTagH2;
+
+      let tagH1 = document.getElementById("tagH1");
+      let tagH2 = document.getElementById("tagH2");
+
+      tagH1.innerHTML = tagH2.innerHTML;
+
+      let tagP = document.getElementById("tagP");
+      tagP.innerHTML = "";
+
+      // textContent (Only text... || innerHTML > tag...)
+      let tagP2 = document.getElementById("tagP2");
+      tagP2.textContent = "qwerty asd bla...";
+
+      let test = document.getElementById("test");
+      test.innerHTML =
+        '<a href="https://www.wikipedia.org/">Go To Wikipedia!</a>';
+    </script>
+  </body>
+</html>

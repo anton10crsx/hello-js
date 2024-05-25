@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson 3</title>
+  </head>
+  <body>
+    <h1 id="bigTitle">JavaScript The Best!</h1>
+    <h2 id="title2">x_Anton</h2>
+
+    <script>
+      // ASCII Art
+      const asciiArt = `
+ /\\_/\\  
+( o.o ) 
+ > ^ <
+`;
+      console.log(asciiArt);
+
+      let bigTitle = document.getElementById("bigTitle");
+      // CSS
+      bigTitle.style.color = "gold";
+      // bigTitle.style.color = "#9c0";
+      bigTitle.style.fontSize = "4em";
+      bigTitle.style.textAlign = "center";
+
+      let title2 = document.getElementById("title2");
+
+      title2.style.cssText =
+        "color: green; font-size: 20px; text-decoration: underline;";
+    </script>
+  </body>
+</html>
