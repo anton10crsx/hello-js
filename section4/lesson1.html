@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Section4 | Lesson1</title>
+  </head>
+  <body>
+    <h1 id="hello">Hello, Js!</h1>
+
+    <!-- js -->
+    <script>
+      console.log("%c### Eye In... ###", "color: green; font-size: 16px;\n");
+
+      // DOM
+      console.log(document);
+
+      // byId
+      document.getElementById("hello");
+      console.log(document.getElementById("hello"));
+      // innerHTML
+      console.log(document.getElementById("hello").innerHTML);
+      document.getElementById("hello").innerHTML = "Hello, There!";
+
+      let tagH1 = document.getElementById("hello");
+      // tagH1 = document.getElementById("hi"); > Null!
+      tagH1.innerHTML = "Lorem Ipsum...";
+    </script>
+  </body>
+</html>
