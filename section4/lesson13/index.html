@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson 13</title>
+    <style>
+      p {
+        margin-right: 16px;
+      }
+      div,
+      img {
+        float: left;
+      }
+      #img-volleyball {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Select...</h1>
+    <div>
+      <p>
+        <input type="radio" name="sport" id="football" checked />
+        <label for="football">Football</label>
+      </p>
+      <p>
+        <input type="radio" name="sport" id="volleyball" />
+        <label for="volleyball">Volleyball</label>
+      </p>
+    </div>
+    <!-- img -->
+    <img src="img/football.png" id="img-football" width="128" alt="football" />
+    <img
+      src="img/volleyball.png"
+      id="img-volleyball"
+      width="96"
+      alt="volleyball"
+    />
+
+    <script src="script.js"></script>
+  </body>
+</html>
