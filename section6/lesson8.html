@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson 8</title>
+    <style>
+      #txt {
+        font-size: 20px;
+        width: 48%;
+        border: 4px solid #ccc;
+      }
+      #test {
+        font-size: 24px;
+        padding: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <input type="text" id="txt" autocomplete="off" />
+    <div id="test"></div>
+
+    <script>
+      // v_92
+      let txt = document.querySelector("#txt");
+      let test = document.querySelector("#test");
+
+      txt.addEventListener("keydown", (e) => {
+        if (e.repeat == true) {
+          e.preventDefault();
+        }
+        test.innerHTML += " __keydown: " + e.key;
+      });
+      txt.addEventListener("keyup", (e) => {
+        test.innerHTML += " __keyup: " + e.key;
+      });
+      txt.addEventListener("beforeinput", (e) => {
+        test.innerHTML += " __beforeinput: " + e.data;
+      });
+      txt.addEventListener("input", (e) => {
+        test.innerHTML += " __input: " + e.data;
+      });
+    </script>
+  </body>
+</html>
