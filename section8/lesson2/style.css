@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.div-one {
+  width: 256px;
+  height: 256px;
+  border: 2px solid #333;
+  border-radius: 8px;
+  text-align: center;
+  line-height: 256px;
+  transition: all 2s ease-in-out;
+}
+
+.class1 {
+  background: #9c0;
+  transition: all 2s ease;
+}
+.class2 {
+  border-radius: 50%;
+}
+.class3 {
+  background: #930;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bolder;
+  border-radius: 50%;
+  transition: all 2s ease-in-out;
+}
+
+button {
+  border: none;
+  border-radius: 4px;
+  background: gold;
+  padding: 16px;
+  margin: 8px 2px;
+  cursor: pointer;
+}

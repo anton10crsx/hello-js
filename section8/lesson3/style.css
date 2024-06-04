@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  line-height: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  filter: blur(4px);
+}
+
+.see-pic {
+  filter: none;
+  border: 2px solid gold;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.div-img {
+  width: 512px;
+  border: 4px solid #333;
+  border-radius: 4px;
+}
+
+button {
+  border: none;
+  background: gold;
+  padding: 16px;
+  margin: 8px;
+  cursor: pointer;
+}

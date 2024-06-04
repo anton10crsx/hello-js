@@ -1,0 +1,23 @@
+.aaa {
+  background: green;
+}
+
+.ccc {
+  background: red;
+  border: 2px solid black;
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: center;
+  padding: 20px;
+  width: fit-content;
+}
+
+button {
+  border: none;
+  border-radius: 16px;
+  background: gold;
+  margin-top: 20px;
+  padding: 16px;
+  cursor: pointer;
+}
