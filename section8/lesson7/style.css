@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+input {
+  font-size: 20px;
+  padding: 8px;
+}
+
+input::placeholder {
+  color: blue;
+}
+
+button {
+  font-size: 20px;
+  padding: 8px;
+  border: none;
+  color: white;
+  background: tomato;
+  cursor: pointer;
+}
+
+table {
+  margin-top: 16px;
+  border-collapse: collapse;
+}
+
+table,
+tr,
+th,
+td {
+  border: 1px solid #333;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: center;
+}
