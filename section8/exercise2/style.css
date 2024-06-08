@@ -24,7 +24,6 @@ body {
   text-align: center;
 }
 
-/* header */
 header {
   width: 100%;
   padding: 24px 0 0;
@@ -63,7 +62,6 @@ header button#btn-stop {
   display: none;
 }
 
-/* section */
 section {
   width: 100%;
   height: 56vh;
@@ -73,7 +71,6 @@ section {
   gap: 48px;
 }
 
-/* card */
 .card {
   width: 256px;
   height: 256px;
@@ -93,7 +90,6 @@ section {
 }
 
 .card p {
-  /* x */
   padding: 8px 0;
 }
 

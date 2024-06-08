@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f5f5f5;
+  color: #333;
+  text-align: center;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #333;
+  opacity: 0.8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-main {
+  width: 80%;
+  max-width: 512px;
+  height: 256px;
+  background: #f5f5f5;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  position: relative;
+}
+
+.countdown-close {
+  width: 56px;
+  height: 56px;
+  background: #9c0;
+  border-radius: 50%;
+  font-size: 20px;
+  font-weight: bolder;
+  line-height: 56px;
+  position: absolute;
+  top: -0;
+  right: 0;
+  transform: translate(50%, -50%);
+}
+
+.countdown-close.close-click {
+  cursor: pointer;
+}
+
+.close-modal {
+  display: none;
+}
