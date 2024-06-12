@@ -1,0 +1,89 @@
+/* Tiny5 */
+@import url("https://fonts.googleapis.com/css2?family=Tiny5&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Tiny5", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background: #1a1c23;
+  color: #f1ecd7;
+  text-align: center;
+}
+
+.slot-machine {
+  width: 100%;
+  height: 100vh;
+  border: 16px solid #1962a0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 40px;
+  color: #1962a0;
+}
+
+.slot-machine--display {
+  list-style: none;
+  display: flex;
+  border: 8px double #e8c051;
+  font-size: 56px;
+  gap: 2px;
+}
+
+.slot {
+  border: 4px double #e8c051;
+  border-radius: 4px;
+  padding: 4px 16px;
+}
+
+#num {
+  padding: 16px;
+  background: #f1ecd7;
+  color: #1a1c23;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  font-size: 32px;
+  text-align: center;
+  margin-top: 8px;
+}
+#num::placeholder {
+  color: #1962a0;
+}
+
+.btn {
+  font-size: 32px;
+  border: none;
+  border-radius: 8px;
+  padding: 16px;
+  background: #1962a0;
+  color: #1a1c23;
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.48);
+  margin-top: 16px;
+  cursor: pointer;
+  transition: all 1s ease;
+}
+.btn:hover {
+  color: #e8c051;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.24);
+}
+
+.result {
+  font-size: 40px;
+  margin-top: 24px;
+  color: #e8c051;
+  transition: all 1s ease;
+}
+.won {
+  transform: rotate(360deg);
+  opacity: 1;
+}
