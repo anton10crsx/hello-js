@@ -1,0 +1,60 @@
+body {
+  background: #eee;
+  padding: 20px;
+}
+
+main {
+  background: #fff;
+  padding: 40px 20px 160px;
+  border: 1px ridge #0000ee;
+  border-bottom: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.link-clicked {
+  color: #930;
+  font-weight: bolder;
+}
+
+/* popup */
+.notice {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: none;
+}
+
+.notice section {
+  border: 2px solid #333;
+  border-radius: 4px;
+  padding: 40px;
+  background: #f5f5f5;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.48);
+}
+
+.notice section button {
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  padding: 8px 20px;
+  font-weight: bolder;
+  font-size: 20px;
+  text-align: center;
+  background: #930;
+  color: #fff;
+  cursor: pointer;
+  margin: 0 8px;
+}
+
+.notice.popup-visible {
+  display: flex;
+}

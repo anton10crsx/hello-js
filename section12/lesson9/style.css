@@ -1,0 +1,9 @@
+.mix-colors {
+  width: 256px;
+  height: 256px;
+  background: red;
+}
+
+.mix-colors img {
+  mix-blend-mode: luminosity;
+}
